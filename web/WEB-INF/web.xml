@@ -28,6 +28,10 @@
         <servlet-name>UpdateCommentaireServlet</servlet-name>
         <servlet-class>controllers.UpdateCommentaireServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>StatistiqueController</servlet-name>
+        <servlet-class>controllers.StatistiqueController</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>LoginServlet</servlet-name>
         <url-pattern>/LoginServlet</url-pattern>
@@ -55,6 +59,10 @@
     <servlet-mapping>
         <servlet-name>UpdateCommentaireServlet</servlet-name>
         <url-pattern>/UpdateCommentaireServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>StatistiqueController</servlet-name>
+        <url-pattern>/StatistiqueController</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

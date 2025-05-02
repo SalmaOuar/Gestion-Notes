@@ -7,18 +7,21 @@
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/NotePK.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/util/HibernateUtil.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/hibernate.cfg.xml</file>
+            <file>file:/C:/xampp/htdocs/GN/web/dashboard_enseignant.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Enseignant.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/index.html</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Etudiant.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/EnseignantDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Note.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/dashboard_etudiant.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/AbstractDao.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/mes_matieres.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Admin.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/AdminDao.java</file>
-            <file>file:/C:/xampp/htdocs/GN/src/java/services/EtudiantService.java</file>
-            <file>file:/C:/xampp/htdocs/GN/src/java/services/EnseignantService.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/commentaires.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/services/AdminService.java</file>
-            <file>file:/C:/xampp/htdocs/GN/src/java/tests/TestAjoutNoteParEnseignant.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/IDao.java</file>
+            <file>file:/C:/xampp/htdocs/GN/src/java/controllers/UpdateCommentaireServlet.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/User.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/NoteDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/MatiereDao.java</file>
@@ -26,7 +29,7 @@
             <file>file:/C:/xampp/htdocs/GN/src/java/tests/Test.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/EtudiantDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/services/IService.java</file>
-            <file>file:/C:/xampp/htdocs/GN/src/java/services/MatiereService.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/dashboard_admin.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/UserDao.java</file>
         </group>
     </open-files>

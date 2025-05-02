@@ -13,6 +13,7 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Admin - Tableau de bord</title>
+        <link rel="icon" type="image/png" href="images/icon.png">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
         <style>
@@ -52,7 +53,7 @@
     </head>
     <body>
 
-        
+
         <nav class="navbar navbar-expand-lg navbar-dark px-4">
             <a class="navbar-brand" href="#"><i class="fas fa-user-shield"></i> Espace Admin</a>
             <div class="ms-auto">
@@ -60,7 +61,7 @@
             </div>
         </nav>
 
-        
+
         <div class="dashboard container">
             <h2 class="text-center mb-5">Tableau de bord Administrateur</h2>
             <div class="row g-4 justify-content-center">
@@ -81,10 +82,20 @@
                         <a href="matieres.jsp" class="btn btn-outline-primary btn-sm">Accéder</a>
                     </div>
                 </div>
+
+                <div class="col-md-4">
+                    <div class="card shadow-sm p-4 text-center">
+                        <i class="fas fa-chart-bar mb-3" style="color:#5c002e; font-size: 2rem;"></i>
+                        <h5>Statistiques</h5>
+                        <p>Visualiser les notes par matière (graphiques).</p>
+                        <a href="statistiques.jsp" class="btn btn-outline-primary btn-sm">Voir les statistiques</a>
+                    </div>
+                </div>
+
             </div>
         </div>
 
-        
+
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

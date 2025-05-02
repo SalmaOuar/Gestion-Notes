@@ -67,4 +67,11 @@ public class NoteDao extends AbstractDao<Note> {
         return notes;
     }
 
+    public List<Object[]> findMatieresWithNoteCount() {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        return session.createQuery(
+                "SELECT n.matiere.nom, COUNT(n) FROM Note n GROUP BY n.matiere.nom"
+        ).list();
+    }
+
 }
