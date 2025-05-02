@@ -29,3 +29,8 @@ Il est souvent difficile pour les étudiants de centraliser leurs ressources et 
 ![Image](https://github.com/user-attachments/assets/61db1e5b-084c-4e65-bacb-885087c19ecd)
 ![Image](https://github.com/user-attachments/assets/40d5b9f1-e7b0-44bc-b6de-5a071c8af623)
 ![Image](https://github.com/user-attachments/assets/82d09245-a292-4f5c-8c6a-2c81b8c1ab2c)
+
+## 7. ⚙️ Aechitecture
+
+## 8. 🎥 Vidéo de démonstration 
+https://github.com/user-attachments/assets/e61e2d0b-06dd-4256-9e1b-d6251ca55512
