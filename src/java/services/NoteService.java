@@ -45,4 +45,17 @@ public class NoteService implements IService<Note> {
     public Note findById(int id) {
         return dao.findById(id);
     }
+
+    public Note findById(int etudiantId, int matiereId) {
+        return dao.findById(etudiantId, matiereId);
+    }
+
+    public List<Note> findByEnseignantId(int enseignantId) {
+        return dao.findByEnseignantId(enseignantId);
+    }
+
+    public List<Note> findByEtudiantId(int etudiantId) {
+        return dao.findByEtudiantId(etudiantId);
+    }
+
 }

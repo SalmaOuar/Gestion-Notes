@@ -6,6 +6,11 @@
 package dao;
 
 import entities.Matiere;
+import java.util.List;
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+import util.HibernateUtil;
 
 /**
  *
@@ -17,4 +22,29 @@ public class MatiereDao extends AbstractDao<Matiere> {
         super(Matiere.class);
     }
 
+    public List<Matiere> findByEnseignantId(int enseignantId) {
+        Session session = null;
+        Transaction tx = null;
+        List<Matiere> list = null;
+        try {
+            session = HibernateUtil.getSessionFactory().openSession();
+            tx = session.beginTransaction();
+
+            Query query = session.createQuery("FROM Matiere WHERE enseignant.id = :id");
+            query.setParameter("id", enseignantId);
+            list = query.list();
+
+            tx.commit();
+        } catch (Exception e) {
+            if (tx != null) {
+                tx.rollback();
+            }
+            e.printStackTrace();
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
+        return list;
+    }
 }

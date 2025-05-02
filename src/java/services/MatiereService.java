@@ -45,4 +45,9 @@ public class MatiereService implements IService<Matiere> {
     public Matiere findById(int id) {
         return dao.findById(id);
     }
+
+    public List<Matiere> findByEnseignantId(int enseignantId) {
+        return dao.findByEnseignantId(enseignantId);
+    }
+
 }

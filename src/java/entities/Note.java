@@ -43,6 +43,13 @@ public class Note implements Serializable {
         this.id = new NotePK(etudiant.getId(), matiere.getId());
     }
 
+    public Note(int etudiantId, int matiereId, double note) {
+    this.id = new NotePK(etudiantId, matiereId);
+    this.note = note;
+}
+    
+    
+
     public NotePK getId() {
         return id;
     }
