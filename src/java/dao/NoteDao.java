@@ -9,7 +9,9 @@ import entities.Note;
 import entities.NotePK;
 import java.util.ArrayList;
 import java.util.List;
+import org.hibernate.Query;
 import org.hibernate.Session;
+import org.hibernate.Transaction;
 import util.HibernateUtil;
 
 /**
@@ -72,6 +74,46 @@ public class NoteDao extends AbstractDao<Note> {
         return session.createQuery(
                 "SELECT n.matiere.nom, COUNT(n) FROM Note n GROUP BY n.matiere.nom"
         ).list();
+    }
+
+    public Note findByEtudiantAndMatiere(int etudiantId, int matiereId) {
+        Session session = HibernateUtil.getSessionFactory().openSession();
+        Note note = null;
+        try {
+            Query query = session.createQuery("FROM Note WHERE etudiant.id = :etudiantId AND matiere.id = :matiereId");
+            query.setParameter("etudiantId", etudiantId);
+            query.setParameter("matiereId", matiereId);
+            note = (Note) query.uniqueResult();
+
+        } finally {
+            session.close();
+        }
+        return note;
+    }
+
+    public boolean update(Note note) {
+        Session session = null;
+        Transaction tx = null;
+
+        try {
+            session = HibernateUtil.getSessionFactory().openSession();
+            tx = session.beginTransaction();
+
+            session.update(note);
+
+            tx.commit();
+            return true;
+        } catch (Exception e) {
+            if (tx != null) {
+                tx.rollback();
+            }
+            e.printStackTrace();
+            return false;
+        } finally {
+            if (session != null) {
+                session.close();
+            }
+        }
     }
 
 }

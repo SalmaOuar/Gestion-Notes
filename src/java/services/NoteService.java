@@ -16,6 +16,7 @@ import java.util.List;
 public class NoteService implements IService<Note> {
 
     private final NoteDao dao;
+    private NoteDao noteDao = new NoteDao();
 
     public NoteService() {
         this.dao = new NoteDao();
@@ -57,5 +58,11 @@ public class NoteService implements IService<Note> {
     public List<Note> findByEtudiantId(int etudiantId) {
         return dao.findByEtudiantId(etudiantId);
     }
+
+    public Note findByEtudiantAndMatiere(int etudiantId, int matiereId) {
+        return noteDao.findByEtudiantAndMatiere(etudiantId, matiereId);
+    }
+
+    
 
 }

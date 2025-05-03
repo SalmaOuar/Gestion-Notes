@@ -4,32 +4,46 @@
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
             <file>file:/C:/xampp/htdocs/GN/src/java/services/NoteService.java</file>
+            <file>file:/C:/xampp/htdocs/GN/src/java/mapper/MatiereCount.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/NotePK.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/util/HibernateUtil.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/modifier_utilisateur.jsp</file>
+            <file>file:/C:/xampp/htdocs/GN/src/java/controllers/StatistiqueController.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/hibernate.cfg.xml</file>
             <file>file:/C:/xampp/htdocs/GN/web/dashboard_enseignant.jsp</file>
+            <file>file:/C:/xampp/htdocs/GN/web/ajouter_utilisateur.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Enseignant.java</file>
             <file>file:/C:/xampp/htdocs/GN/web/index.html</file>
+            <file>file:/C:/xampp/htdocs/GN/web/logout.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Etudiant.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/EnseignantDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Note.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/ajouter_matiere.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/web/dashboard_etudiant.jsp</file>
+            <file>file:/C:/xampp/htdocs/GN/web/liste_notes.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/AbstractDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/web/mes_matieres.jsp</file>
+            <file>file:/C:/xampp/htdocs/GN/web/statistiques.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Admin.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/AdminDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/web/commentaires.jsp</file>
+            <file>file:/C:/xampp/htdocs/GN/web/matieres.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/services/AdminService.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/IDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/controllers/UpdateCommentaireServlet.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/modifier_matiere.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/User.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/mes_notes.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/NoteDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/MatiereDao.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/entities/Matiere.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/login.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/tests/Test.java</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/EtudiantDao.java</file>
+            <file>file:/C:/xampp/htdocs/GN/web/ajouter_notes.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/services/IService.java</file>
             <file>file:/C:/xampp/htdocs/GN/web/dashboard_admin.jsp</file>
+            <file>file:/C:/xampp/htdocs/GN/web/utilisateurs.jsp</file>
             <file>file:/C:/xampp/htdocs/GN/src/java/dao/UserDao.java</file>
         </group>
     </open-files>
